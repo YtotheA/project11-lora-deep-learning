@@ -28,3 +28,6 @@ run_experiment("full_ft", build_base_model(), lr=2e-5)                 # full fi
 build_lora_model(target="mlp", r=16, alpha=32)                         # target-module ablation
 build_lora_model(target="attention", r=r, alpha=2*r)                   # rank sweep
 ```
+## Note on contributions
+
+This notebook was originally developed collaboratively in Google Colab (with @tobiweninger) and only pushed to git afterward, so the git commit history/contribution stats do not reflect the actual split of work. Real contributions were close to 50/50.
