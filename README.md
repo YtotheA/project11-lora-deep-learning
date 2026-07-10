@@ -1,4 +1,4 @@
-# Project 11: LoRA vs. Linear Probe on SST-2
+# Project 11: LoRA
 
 Compares a parameter-efficient LoRA fine-tune of `roberta-base` against a linear-probe baseline, full fine-tuning and prefix tuning on the SST-2 sentiment task.
 
